@@ -1,0 +1,20 @@
+/* Estilo para el título principal */
+.cartapp-title {
+  font-size: 2.5rem;
+  color: #1b4d1f; /* verde corporativo */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Contenedor principal de productos */
+.cartapp-container {
+  border: 2px solid #1b4d1f;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+/* Footer */
+.cartapp-footer {
+  font-size: 0.9rem;
+  color: #6c757d;
+}

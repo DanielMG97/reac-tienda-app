@@ -1,0 +1,53 @@
+/* Marca (LOGO en el centro) */
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+/* Logo */
+.logo-img {
+  width: 180px;     /* tamaño más razonable */
+  height: auto;     /* mantiene proporciones */
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 8px; /* bordes ligeramente redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombra sutil */
+}
+
+.logo-img:hover {
+  transform: scale(1.08); /* efecto sutil al pasar el mouse */
+}
+
+/* Fondo personalizado del navbar */
+.navbar-custom {
+  background: linear-gradient(90deg, #797ca8, #145214); /* degradado elegante */
+  padding: 0.6rem 1.5rem;
+}
+
+/* Texto de los enlaces */
+.nav-text {
+  font-size: 2.0rem;
+  font-weight: 500;
+  margin: 0 12px;
+  color: #000000; /* blanco suave */
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-text:hover {
+  color: #ffcc00; /* dorado en hover */
+  transform: translateY(-2px); /* leve desplazamiento */
+}
+
+/* Ícono del carrito */
+.cart-icon {
+  font-size: 5rem;
+  color: #000000;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.cart-icon:hover {
+  color: #a5ec32;
+  transform: scale(1.1);
+}
